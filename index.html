@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIMAN インセルダム 紹介者のユーザー名 | リマンジャパン公式登録用</title>
+    <meta name="description" content="RIMAN インセルダム 紹介者のユーザー名を今すぐコピー。リマンジャパン(RIMAN JAPAN)公式会員登録に必要な紹介者ID・ユーザー名はこちら。">
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 40px 20px; text-align: center; background-color: #fffafb; }
+        .container { border: 1px solid #ffe4e9; padding: 30px; border-radius: 15px; background: white; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { color: #d4145a; font-size: 1.5rem; margin-bottom: 20px; }
+        .id-box { background: #fdf2f4; border: 2px dashed #d4145a; padding: 15px; font-size: 1.2rem; font-weight: bold; margin: 20px 0; cursor: pointer; }
+        .btn { background: #d4145a; color: white; padding: 12px 25px; text-decoration: none; border-radius: 25px; display: inline-block; margin-top: 20px; font-weight: bold; }
+        .footer { margin-top: 40px; font-size: 0.8rem; color: #888; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RIMAN インセルダム<br>紹介者のユーザー名</h1>
+        <p>公式登録時にコピーしてご使用ください</p>
+        
+        <div class="id-box" onclick="copyToClipboard()">
+            [여기에 실제 사용자명 입력]
+        </div>
+        <p style="font-size: 0.8rem; color: #d4145a;">↑ クリックしてコピー</p>
+
+        <a href="https://riman.com/jp" class="btn">公式サイトで登録する</a>
+    </div>
+
+    <div class="footer">
+        © RIMAN インセルダム 紹介者情報案内
+    </div>
+
+    <script>
+        function copyToClipboard() {
+            const id = "[여기에 실제 사용자명 입력]";
+            navigator.clipboard.writeText(id).then(() => {
+                alert("紹介者のユーザー名をコピーしました！");
+            });
+        }
+    </script>
+</body>
+</html>
